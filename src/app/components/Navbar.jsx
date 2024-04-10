@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="flex flex-wrap item-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-2xl md:text-5xl text-white font-semibold hover:text-slate-500"
         >
           Cataka
         </Link>
