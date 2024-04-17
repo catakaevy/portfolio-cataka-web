@@ -54,7 +54,7 @@ const ProjectsSection = () => {
     project.tag.includes(tag)
   );
   return (
-    <>
+    <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
@@ -75,7 +75,7 @@ const ProjectsSection = () => {
           isSelected={tag === "DevOps"}
         />
       </div>
-      <div className="grid md: grid-cols-3 gap-8 gap-8 md:gap-12">
+      <div className="grid md: grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}
@@ -89,7 +89,7 @@ const ProjectsSection = () => {
           />
         ))}
       </div>
-    </>
+    </section>
   );
 };
 export default ProjectsSection;
