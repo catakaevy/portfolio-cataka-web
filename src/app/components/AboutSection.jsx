@@ -12,14 +12,17 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>AWS</li>
         <li>IaC (CloudFormation)</li>
+        <li>CI/CD</li>
         <li>Python</li>
+        <li>Java</li>
         <li>Bash</li>
         <li>Linux</li>
         <li>Docker</li>
         <li>Git</li>
         <li>PostgreSQL</li>
         <li>Networks</li>
-        <li>HTML, CSS, JavaScript</li>
+        <li>HTML, CSS</li>
+        <li>JavaScript</li>
       </ul>
     ),
   },
